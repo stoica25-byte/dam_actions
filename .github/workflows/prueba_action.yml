@@ -1,0 +1,15 @@
+name : Git de prueba
+
+on:
+  push:
+  
+jobs:
+  mostrar_mensaje:
+    runs-on: ubuntu-latest
+    - name : muestra mensaje
+      run : 
+        echo "hola"
+  trabajo_2:
+  
+  
+  trabajo_3:
